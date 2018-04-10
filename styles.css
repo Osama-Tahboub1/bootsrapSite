@@ -3,12 +3,12 @@ body {
     background-color: #d2d2d2;
 }
 
-.header-content {
+.nav-content {
     height: 45px;
     background-color:  #ffffff;
 }
 
-.main-content {
+.header-content {
     height: 700px;
 }
 
@@ -38,7 +38,7 @@ body {
 
 }
 
-.header-link {
+.nav-link {
     background-color: #4fb1a2;
 }
 
@@ -87,7 +87,7 @@ body {
 }
 
 @media (max-width: 720px) and (min-width: 401px) {
-    [class*="main-content"] {
+    [class*="header-content"] {
         width: 100%;
         haight: 50px;
     }
@@ -98,7 +98,7 @@ body {
 }
 
 @media (max-width: 400px) {
-    [class*="main-content"] {
+    [class*="header-content"] {
         width: 100%;
         height: 350px;
 
@@ -113,11 +113,11 @@ body {
     }
 
     [class*="nav-list-container"],
-    [class*="header-main-link"]{
+    [class*="nav-main-link"]{
         display: none;
     }
 
-    [class*= "header-main-link"] {
+    [class*= "nav-main-link"] {
         display: none;
     }
 
