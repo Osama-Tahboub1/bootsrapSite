@@ -14,11 +14,11 @@
     background-color: #a53a2a;
 }
 
-header div div {
+.header-content {
     height: 50px;
 }
 
-main div div {
+.main-content {
     height: 700px;
 }
 
@@ -26,6 +26,6 @@ main div div {
     height:300px;
 }
 
-footer div div {
+.footer-content {
     height:100px;
 }
