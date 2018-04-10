@@ -14,8 +14,12 @@
     background-color: #a53a2a;
 }
 
+body {
+    font-family: Proxima-SemiBold;
+}
+
 .header-content {
-    height: 50px;
+    height: 45px;
 }
 
 .main-content {
@@ -23,9 +27,25 @@
 }
 
 .blocks {
-    height:300px;
+    height: 300px;
 }
 
 .footer-content {
-    height:100px;
+    height: 100px;
+}
+
+.logo {
+    background-color: #4fb1a2;
+    color: #ffffff;
+}
+
+.nav-list {
+    float:left;
+    list-style-type: none;
+    padding: 10px;
+
+}
+
+.header-link {
+    background-color: #4fb1a2;
 }
