@@ -35,8 +35,8 @@ body {
 }
 
 .logo {
-    background-color: #4fb1a2;
-    color: #ffffff;
+    background-image: url("assets/logo.png");
+    background-repeat: no-repeat;
 }
 
 .nav-list {
