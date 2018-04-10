@@ -26,7 +26,7 @@ body {
     background-repeat: no-repeat;
 }
 
-.header-main-link {
+.nav-main-link {
     background-color: #82bfd8;
     color: #ffffff;
 }
@@ -84,4 +84,44 @@ body {
 
 .block8 {
     background-image: url("assets/8.jpeg");
+}
+
+@media (max-width: 720px) and (min-width: 401px) {
+    [class*="main-content"] {
+        width: 100%;
+        haight: 50px;
+    }
+
+    [class*="blocks"] {
+        width: 50%;
+    }
+}
+
+@media (max-width: 400px) {
+    [class*="main-content"] {
+        width: 100%;
+        height: 350px;
+
+    }
+
+    [class*="blocks"] {
+        width: 100%;
+    }
+
+    [class*= "logo"] {
+       width: 150px;
+    }
+
+    [class*="nav-list-container"],
+    [class*="header-main-link"]{
+        display: none;
+    }
+
+    [class*= "header-main-link"] {
+        display: none;
+    }
+
+    [class*= "nav-list"] {
+        display: none;
+    }
 }
