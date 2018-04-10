@@ -50,6 +50,18 @@ body {
     background-color: #4fb1a2;
 }
 
+.hero-image {
+    background-image: url("assets/hero-image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.map {
+    background-image: url("assets/map.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .block1 {
     background-image: url("assets/1.jpeg");
 }
