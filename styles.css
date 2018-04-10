@@ -5,6 +5,7 @@ body {
 
 .header-content {
     height: 45px;
+    background-color:  #ffffff;
 }
 
 .main-content {
@@ -23,6 +24,11 @@ body {
 .logo {
     background-image: url("assets/logo.png");
     background-repeat: no-repeat;
+}
+
+.header-main-link {
+    background-color: #82bfd8;
+    color: #ffffff;
 }
 
 .nav-list {
