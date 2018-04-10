@@ -49,3 +49,35 @@ body {
 .header-link {
     background-color: #4fb1a2;
 }
+
+.block1 {
+    background-image: url("assets/1.jpeg");
+}
+
+.block2 {
+    background-image: url("assets/2.jpeg");
+}
+
+.block3 {
+    background-image: url("assets/3.jpeg");
+}
+
+.block4 {
+    background-image: url("assets/4.jpeg");
+}
+
+.block5 {
+    background-image: url("assets/5.jpeg");
+}
+
+.block6 {
+    background-image: url("assets/6.jpeg");
+}
+
+.block7 {
+    background-image: url("assets/7.jpeg");
+}
+
+.block8 {
+    background-image: url("assets/8.jpeg");
+}
