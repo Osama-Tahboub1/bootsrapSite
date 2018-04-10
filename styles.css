@@ -17,3 +17,7 @@
 header div div {
     height: 50px;
 }
+
+main div div {
+    height: 700px;
+}
